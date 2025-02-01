@@ -50,7 +50,7 @@ def generate_response(prompt, user_id):
     data = {
         "model": "llama2-uncensored",  # Adjust this if you want to use a different model
         "prompt": full_prompt,
-	"stream": False
+        "stream": False
     }
     response = requests.post(API_URL, json=data)
     if response.status_code == 200:

@@ -1,11 +1,11 @@
-# simple-discord-ai
+# Discord-AI-bot
 A self-hostable chatbot for Discord that utilizes Ollama.
 
 ## Installation
 1. [Install Ollama](https://ollama.com/download/)
 2. Install the required Python packages:
    ```sh
-   pip install discord.py ollama requests
+   pip install -r requirements.txt
    ```
 3. Open `config.toml` and enter your model and bot token.
 4. Run the bot:
